@@ -31,9 +31,8 @@ class Binar {
         "https://raw.githubusercontent.com/fnurhidayat/probable-garbanzo/main/data/cars.min.json"
       );
       const body = await response.json();
-      cars = this.populateCars(body)
 
-      localStorage.setItem("CARS", JSON.stringify(cars));
+      localStorage.setItem("CARS", JSON.stringify(body));
     }
 
     if (filterer instanceof Function) return cars.filter(filterer);
