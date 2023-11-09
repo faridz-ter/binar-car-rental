@@ -42,24 +42,24 @@
     - Request Body:
       ```json
       {
-        'name' : honda,
-        'price' : 2500,                
-        'picture' : https://res.cloudinary.com/dqhdxgqyc/image/upload/v1699507003/rzrg3r7qkn1xh2jwflk5.jpg,
-        'start_rent' : CURRENT_TIMESTAMP,
-        'finish_rent' : CURRENT_TIMESTAMP
+        "name" : "honda",
+        "price" : 2500,                
+        "picture" : "https://res.cloudinary.com/dqhdxgqyc/image/upload/v1699507003/rzrg3r7qkn1xh2jwflk5.jpg",
+        "start_rent" : "CURRENT_TIMESTAMP",
+        "finish_rent" : "CURRENT_TIMESTAMP"
       }
       ```
   - Example Response:
     ```json
     { 
-      type: 'success',
-      message: 'Upload gambar dan data berhasil!',
-      data: [
-        'name' : honda,
-        'price' : 2500,                
-        'picture' : https://res.cloudinary.com/dqhdxgqyc/image/upload/v1699507003/rzrg3r7qkn1xh2jwflk5.jpg,
-        'start_rent' : CURRENT_TIMESTAMP,
-        'finish_rent' : CURRENT_TIMESTAMP
+      "type": "success",
+      "message": "Upload gambar dan data berhasil!",
+      "data": [
+        "name" : "honda",
+        "price" : 2500,                
+        "picture" : "https://res.cloudinary.com/dqhdxgqyc/image/upload/v1699507003/rzrg3r7qkn1xh2jwflk5.jpg",
+        "start_rent" : "CURRENT_TIMESTAMP",
+        "finish_rent" : "CURRENT_TIMESTAMP"
       ],
     }
     ```
@@ -70,24 +70,24 @@
     - Request Body:
       ```json
       {
-        'name' : honda,
-        'price' : 2500,                
-        'picture' : https://res.cloudinary.com/dqhdxgqyc/image/upload/v1699507003/rzrg3r7qkn1xh2jwflk5.jpg,
-        'start_rent' : CURRENT_TIMESTAMP,
-        'finish_rent' : CURRENT_TIMESTAMP
+        "name" : "honda",
+        "price" : 2500,                
+        "picture" : "https://res.cloudinary.com/dqhdxgqyc/image/upload/v1699507003/rzrg3r7qkn1xh2jwflk5.jpg",
+        "start_rent" : "CURRENT_TIMESTAMP",
+        "finish_rent" : "CURRENT_TIMESTAMP"
       }
       ```
   - Example Response:
     ```json
     { 
-      type: 'success',
-      message: 'Data berhasil diperbarui!',
-      data: [
-        'name' : honda,
-        'price' : 2500,                
-        'picture' : https://res.cloudinary.com/dqhdxgqyc/image/upload/v1699507003/rzrg3r7qkn1xh2jwflk5.jpg,
-        'start_rent' : CURRENT_TIMESTAMP,
-        'finish_rent' : CURRENT_TIMESTAMP
+      "type" : "success",
+      "message" : "Data berhasil diperbarui!",
+      "data" : [
+        "name" : "honda",
+        "price" : 2500,                
+        "picture" : "https://res.cloudinary.com/dqhdxgqyc/image/upload/v1699507003/rzrg3r7qkn1xh2jwflk5.jpg",
+        "start_rent" : "CURRENT_TIMESTAMP",
+        "finish_rent" : "CURRENT_TIMESTAMP"
       ],
     }
     ```
@@ -99,8 +99,8 @@
   - Example Response:
     ```json
     { 
-      type: 'success',
-      message: 'Data berhasil dihapus!',
-      id: carId
+      "type" : "success",
+      "message" : "Data berhasil dihapus!",
+      "id" : carId
     }
     ```
