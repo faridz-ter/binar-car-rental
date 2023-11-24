@@ -3,6 +3,7 @@ import path from 'path';
 
 import ApiCars from './routes/api/ApiCars';
 import ApiAuth from './routes/api/ApiAuth';
+import swaggerDocs from "./utils/swagger";
 
 const { PORT = 8000 } = process.env;
 const PUBLIC_DIR = path.join(__dirname, 'public');
@@ -18,6 +19,8 @@ class Server {
     
     this.app.use('/api/cars', ApiCars.routes());
     this.app.use('/api/auth', ApiAuth.routes());
+
+    swaggerDocs(this.app, 8000);
   }
   run() {
     this.app.listen(PORT, () => {
